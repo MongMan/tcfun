@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: eureka
+
+server:
+  port: 8761
+
+eureka:
+  client:
+    # 获取注册信息
+    fetch-registry: false
+    # 注册到一个注册中心
+    register-with-eureka: false

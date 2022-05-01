@@ -2,12 +2,14 @@ package com.tice.tcfun;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
+@EnableEurekaServer
 @SpringBootApplication
-public class TcfunApplication {
+public class EurekaApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TcfunApplication.class, args);
+        SpringApplication.run(EurekaApplication.class, args);
     }
 
 }
